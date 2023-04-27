@@ -10,10 +10,10 @@ body {
 }
 
 .navbar {
+    float: left;
     width: 15%;
     height: 100%;
     position: fixed;
-    display: inline-block;
     background-color: gray;
     left: 0;
     right: 0;
@@ -46,4 +46,9 @@ ul {
     color: white;
     display: block;
     text-align: center;
+}
+
+.content {
+    float: left;
+    width: 85%;
 }
