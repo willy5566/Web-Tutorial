@@ -1,54 +1,49 @@
 body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-* {
-    box-sizing: border-box;
+  margin: 0;
 }
 
 .navbar {
-    float: left;
-    width: 15%;
-    height: 100%;
-    position: fixed;
-    background-color: gray;
-    left: 0;
-    right: 0;
-    z-index: 100;
+  display: flex;
+  position: fixed;
+  height: 100vh;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 200px;
 }
 
 #photo {
-    width: 100px;
-    border-radius: 50%;
-    text-align: center;
-    display: block;
-}
-
-.outbox {
-    background-color: white;
-    opacity: 0.5;
-}
-
-.outbox img {
-    width: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 10px solid rgba(0, 0, 255, 1);
+  display: block;
+  background-image: url("../images/Lionking66.png");
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
 }
 
 ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 0;
 }
 
-.navbar ul li {
-    color: white;
-    display: block;
-    text-align: center;
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+  text-decoration: none;
 }
 
 .content {
-    float: left;
-    width: 85%;
+  margin: 0 0 0 200px;
+  display: flex;
+  flex-direction: column;
 }

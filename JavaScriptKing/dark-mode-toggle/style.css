@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 400px;
+  height: 200px;
+  border: none;
+  border-radius: 200px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.dot {
+  height: 180px;
+  width: 180px;
+  background-color: white;
+  border-radius: 90px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transition: left 0.4s;
+}
+
+.active {
+  background-color: black;
+}
+
+.dot.active {
+  left: 210px;
+}
